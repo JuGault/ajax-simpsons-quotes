@@ -36,7 +36,7 @@
 
     function fetchSimpsonJSON() {
 
-        const url = `https://thesimpsonsquoteapi.glitch.me/quotes`;
+        const url = `https://simpsons-quotes-api.herokuapp.com/quotes`;
         axios.get(url)
             .then(function(response) {
                 return response.data;
